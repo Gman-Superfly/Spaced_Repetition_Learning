@@ -1,4 +1,4 @@
-# README: Hybrid SRL Replay Buffer for Inference-Time Self-Training in LLMs
+# Hybrid SRL Replay Buffer for Inference-Time Self-Training in LLMs
 
 ## Overview
 This repository (or code snippet) contains a Python implementation of a **Hybrid Spaced Repetition Learning (SRL) Replay Buffer** integrated with diversity bonuses from the Exploratory Iteration (ExIt) framework, as described in the paper "Bootstrapping Task Spaces for Self-Improvement" (arXiv:2509.04575). The buffer is designed for use in systems where large language models (LLMs) perform self-training and fine-tuning primarily at inference time, modeled as Partially Observable Markov Decision Processes (POMDPs).
